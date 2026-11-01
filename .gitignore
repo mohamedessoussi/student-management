@@ -1,0 +1,11 @@
+# Database credentials
+config/Database.php
+
+# Uploaded files
+uploads/*
+!uploads/.htaccess
+
+# Temporary files
+*.log
+.DS_Store
+Thumbs.db

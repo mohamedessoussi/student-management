@@ -1,0 +1,12 @@
+# ============================================================
+# .htaccess — Security hardening for Student Management System
+# ============================================================
+
+# Prevent directory listing
+Options -Indexes
+
+# Deny direct PHP execution inside uploads/
+<FilesMatch "\.php$">
+  Order Deny,Allow
+  Deny from all
+</FilesMatch>
